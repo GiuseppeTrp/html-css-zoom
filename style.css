@@ -1,14 +1,130 @@
 
-
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-
-
 body {
-    border: solid 1px black;
+    color: white;
+    background-color: black;
+    font-family: 'Lucida Sans', sans-serif;
+    display: flex;
     height: 100vh;
+    flex-direction: column;
 }
+
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    height: 10vh;
+    padding: 5px 5px 10px 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: black;
+}
+
+
+
+
+button{
+    padding:  0px 10px;
+    margin: 10px 0 10px 0;
+    border-radius: 6px;
+    background-color: #4a4a4aaf;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+main{
+   
+   margin: 100px 0 100px 0;
+   height: 70vh;
+
+   
+}
+
+.container {
+    height: calc(100% / 1 );
+    
+    display:  flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    width: 80%;
+    margin: 0px auto;
+    overflow-y:scroll;
+   
+     
+    
+
+}
+
+
+.cam{
+    margin: 10px  5px 10px 5px;
+    position: relative;
+    border-radius: 10px;
+
+}
+
+.cam:hover {
+    cursor: pointer;
+    
+}
+
+.name {
+    background-color:rgba(118, 122, 126, 0.385);
+    padding: 5px 5px;
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+}
+
+.name:hover {
+    color: black;
+}
+
+
+
+
+
+
+.nav-foot * {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.nav-foot{
+    background-color: rgb(92, 92, 92) ;
+    padding-bottom: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    height: 10vh;
+}
+
+
+.nav-foot   li {
+     
+
+    list-style-type: none;
+    
+    padding: 0 10px;
+   
+   
+   
+    
+}
+
+
+
+
